@@ -12,7 +12,7 @@ include = ["src/**/*", "LICENSE", "README.md", "CHANGELOG.md"]
 rust-version = "1.88"
 
 [dependencies]
-cfg-if = "1.0"
+cfg-if = "1.0.1"
 clap = { version = "4.5", features = ["derive"] }
 humanize-rs = "0.1.5"
 nix = { version = "0.27.0", default-features = false, features = ["time"] }
